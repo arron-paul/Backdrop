@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DesktopWindowController">
+            <connections>
+                <outlet property="controls" destination="f0o-oU-CXq" id="6NC-UQ-D38"/>
+                <outlet property="photographerDetails" destination="tec-s6-nET" id="1Lt-S0-7aW"/>
+                <outlet property="progressSpinner" destination="WQy-p7-e7A" id="Qu8-3D-gjT"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hasShadow="NO" animationBehavior="default" id="F0z-JX-Cv5" customClass="DesktopWindow">
+            <windowCollectionBehavior key="collectionBehavior" stationary="YES" ignoresCycle="YES"/>
+            <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <stackView wantsLayer="YES" distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0o-oU-CXq">
+                        <rect key="frame" x="0.0" y="107" width="480" height="56"/>
+                        <subviews>
+                            <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="WQy-p7-e7A">
+                                <rect key="frame" x="224" y="24" width="32" height="32"/>
+                            </progressIndicator>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="tec-s6-nET">
+                                <rect key="frame" x="-2" y="0.0" width="484" height="16"/>
+                                <textFieldCell key="cell" controlSize="mini" sendsActionOnEndEditing="YES" alignment="center" allowsEditingTextAttributes="YES" id="QrQ-0c-ngm">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <contentFilters>
+                            <ciFilter name="CIColorInvert">
+                                <configuration>
+                                    <null key="inputImage"/>
+                                </configuration>
+                            </ciFilter>
+                        </contentFilters>
+                        <constraints>
+                            <constraint firstItem="WQy-p7-e7A" firstAttribute="centerX" secondItem="f0o-oU-CXq" secondAttribute="centerX" id="LWY-u6-8t3"/>
+                            <constraint firstItem="WQy-p7-e7A" firstAttribute="centerX" secondItem="tec-s6-nET" secondAttribute="centerX" id="wq5-iK-ICD"/>
+                        </constraints>
+                        <visibilityPriorities>
+                            <integer value="1000"/>
+                            <integer value="1000"/>
+                        </visibilityPriorities>
+                        <customSpacing>
+                            <real value="3.4028234663852886e+38"/>
+                            <real value="3.4028234663852886e+38"/>
+                        </customSpacing>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="f0o-oU-CXq" firstAttribute="width" secondItem="se5-gp-TjO" secondAttribute="width" id="BJj-N8-VsF"/>
+                    <constraint firstItem="f0o-oU-CXq" firstAttribute="centerX" secondItem="se5-gp-TjO" secondAttribute="centerX" id="iFw-XS-DaC"/>
+                    <constraint firstItem="f0o-oU-CXq" firstAttribute="centerY" secondItem="se5-gp-TjO" secondAttribute="centerY" id="ruX-VA-m9e"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="254" y="437"/>
+        </window>
+    </objects>
+</document>

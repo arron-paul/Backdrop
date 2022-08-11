@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B65E0E2BCA41DCEBF73D58A /* libPods-Backdrop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E35D5CEFABCCB684D25BC /* libPods-Backdrop.a */; };
+		65E0E8B08442E010B5505B61 /* libPods-BackdropTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E013098BAADDFE0C30A3079B /* libPods-BackdropTests.a */; };
+		B1264E30289C753600CC20D9 /* BackdropHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1264E2F289C750400CC20D9 /* BackdropHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B1539E562899C69E0042FFCF /* DesktopWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E542899C69E0042FFCF /* DesktopWindowController.m */; };
+		B1539E572899C69E0042FFCF /* Desktop.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1539E552899C69E0042FFCF /* Desktop.xib */; };
+		B1539E5C2899C7410042FFCF /* UnsplashPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E5B2899C7410042FFCF /* UnsplashPhoto.m */; };
+		B1539E602899C7D70042FFCF /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E5F2899C7D70042FFCF /* PreferencesWindowController.m */; };
+		B1539E632899C80D0042FFCF /* PreferencesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E622899C80D0042FFCF /* PreferencesWindow.m */; };
+		B1539E702899CB7D0042FFCF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E6E2899CB7D0042FFCF /* SettingsViewController.m */; };
+		B1539E712899CB7D0042FFCF /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1539E6F2899CB7D0042FFCF /* Settings.xib */; };
+		B1539E822899CD2C0042FFCF /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E802899CD2C0042FFCF /* AboutViewController.m */; };
+		B1539E832899CD2C0042FFCF /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1539E812899CD2C0042FFCF /* About.xib */; };
+		B170316C28A0206100C36078 /* UnsplashPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B1539E5B2899C7410042FFCF /* UnsplashPhoto.m */; };
+		B1B784392899D68D00063C99 /* DesktopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B784382899D68D00063C99 /* DesktopWindow.m */; };
+		B1BA8DE728A304BA0053ED19 /* NSWindowFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA8DE628A304BA0053ED19 /* NSWindowFade.m */; };
+		B1BA8DEB28A305320053ED19 /* ApplicationsFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA8DEA28A305320053ED19 /* ApplicationsFolder.m */; };
+		B1BA8DEF28A3056D0053ED19 /* StartupLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA8DEE28A3056D0053ED19 /* StartupLaunch.m */; };
+		B1BA8DF328A305AF0053ED19 /* NSAlert+SynchronousSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA8DF228A305AF0053ED19 /* NSAlert+SynchronousSheet.m */; };
+		B1BA8DF728A305E10053ED19 /* MessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BA8DF628A305E10053ED19 /* MessageBox.m */; };
+		B1C8A0F72899BF630072885C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C8A0F62899BF630072885C /* AppDelegate.m */; };
+		B1C8A0F92899BF630072885C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C8A0F82899BF630072885C /* Assets.xcassets */; };
+		B1C8A0FC2899BF630072885C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C8A0FA2899BF630072885C /* MainMenu.xib */; };
+		B1C8A0FE2899BF630072885C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C8A0FD2899BF630072885C /* main.m */; };
+		B1C9EB2728A01F1B0078427F /* BackdropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C9EB2628A01F1B0078427F /* BackdropTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1264E2E289C750400CC20D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1264E2A289C750300CC20D9 /* BackdropHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1264E17289C750300CC20D9;
+			remoteInfo = BackdropHelper;
+		};
+		B170316928A0204500C36078 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C8A0EA2899BF630072885C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C8A0F12899BF630072885C;
+			remoteInfo = Backdrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B15FB015289C72F500D7DBB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				B1264E30289C753600CC20D9 /* BackdropHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C61AD6F8D8BE539079F049F /* Pods-Backdrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Backdrop.debug.xcconfig"; path = "Target Support Files/Pods-Backdrop/Pods-Backdrop.debug.xcconfig"; sourceTree = "<group>"; };
+		35D8F0E308DAF88E5F681002 /* Pods-BackdropTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackdropTests.debug.xcconfig"; path = "Target Support Files/Pods-BackdropTests/Pods-BackdropTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3833DC8DFBA2D2A36E0A46D4 /* Pods-Backdrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Backdrop.release.xcconfig"; path = "Target Support Files/Pods-Backdrop/Pods-Backdrop.release.xcconfig"; sourceTree = "<group>"; };
+		5FAFC4DE9CA0DDDCE43AEB0E /* libPods-BackdropUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackdropUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691783F70780A74BA8599FD2 /* Pods-BackdropUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackdropUITests.release.xcconfig"; path = "Target Support Files/Pods-BackdropUITests/Pods-BackdropUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90D206B2810D37E2EC12DDED /* Pods-BackdropUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackdropUITests.debug.xcconfig"; path = "Target Support Files/Pods-BackdropUITests/Pods-BackdropUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C69E6CC570EE625B64EF75 /* Pods-BackdropTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackdropTests.release.xcconfig"; path = "Target Support Files/Pods-BackdropTests/Pods-BackdropTests.release.xcconfig"; sourceTree = "<group>"; };
+		B103893F28A5253300F524CF /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
+		B1264E2A289C750300CC20D9 /* BackdropHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BackdropHelper.xcodeproj; path = BackdropHelper/BackdropHelper.xcodeproj; sourceTree = "<group>"; };
+		B1539E532899C69E0042FFCF /* DesktopWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesktopWindowController.h; sourceTree = "<group>"; };
+		B1539E542899C69E0042FFCF /* DesktopWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesktopWindowController.m; sourceTree = "<group>"; };
+		B1539E552899C69E0042FFCF /* Desktop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Desktop.xib; sourceTree = "<group>"; };
+		B1539E5A2899C7410042FFCF /* UnsplashPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnsplashPhoto.h; sourceTree = "<group>"; };
+		B1539E5B2899C7410042FFCF /* UnsplashPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnsplashPhoto.m; sourceTree = "<group>"; };
+		B1539E5E2899C7D70042FFCF /* PreferencesWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		B1539E5F2899C7D70042FFCF /* PreferencesWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		B1539E612899C80D0042FFCF /* PreferencesWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesWindow.h; sourceTree = "<group>"; };
+		B1539E622899C80D0042FFCF /* PreferencesWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindow.m; sourceTree = "<group>"; };
+		B1539E692899C9690042FFCF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B1539E6D2899CB7D0042FFCF /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B1539E6E2899CB7D0042FFCF /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B1539E6F2899CB7D0042FFCF /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		B1539E7F2899CD2C0042FFCF /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		B1539E802899CD2C0042FFCF /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		B1539E812899CD2C0042FFCF /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		B18AAFD6289AF50800A61EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B1B784372899D68D00063C99 /* DesktopWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesktopWindow.h; sourceTree = "<group>"; };
+		B1B784382899D68D00063C99 /* DesktopWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesktopWindow.m; sourceTree = "<group>"; };
+		B1BA8DE528A304BA0053ED19 /* NSWindowFade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSWindowFade.h; sourceTree = "<group>"; };
+		B1BA8DE628A304BA0053ED19 /* NSWindowFade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSWindowFade.m; sourceTree = "<group>"; };
+		B1BA8DE928A305320053ED19 /* ApplicationsFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationsFolder.h; sourceTree = "<group>"; };
+		B1BA8DEA28A305320053ED19 /* ApplicationsFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationsFolder.m; sourceTree = "<group>"; };
+		B1BA8DED28A3056D0053ED19 /* StartupLaunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartupLaunch.h; sourceTree = "<group>"; };
+		B1BA8DEE28A3056D0053ED19 /* StartupLaunch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartupLaunch.m; sourceTree = "<group>"; };
+		B1BA8DF128A305AF0053ED19 /* NSAlert+SynchronousSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAlert+SynchronousSheet.h"; sourceTree = "<group>"; };
+		B1BA8DF228A305AF0053ED19 /* NSAlert+SynchronousSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+SynchronousSheet.m"; sourceTree = "<group>"; };
+		B1BA8DF528A305E10053ED19 /* MessageBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageBox.h; sourceTree = "<group>"; };
+		B1BA8DF628A305E10053ED19 /* MessageBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageBox.m; sourceTree = "<group>"; };
+		B1C8A0F22899BF630072885C /* Backdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C8A0F52899BF630072885C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1C8A0F62899BF630072885C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1C8A0F82899BF630072885C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1C8A0FB2899BF630072885C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B1C8A0FD2899BF630072885C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1C8A0FF2899BF630072885C /* Backdrop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Backdrop.entitlements; sourceTree = "<group>"; };
+		B1C9EB2428A01F1B0078427F /* BackdropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackdropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C9EB2628A01F1B0078427F /* BackdropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackdropTests.m; sourceTree = "<group>"; };
+		E013098BAADDFE0C30A3079B /* libPods-BackdropTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BackdropTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6E35D5CEFABCCB684D25BC /* libPods-Backdrop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Backdrop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C8A0EF2899BF630072885C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B65E0E2BCA41DCEBF73D58A /* libPods-Backdrop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C9EB2128A01F1B0078427F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E0E8B08442E010B5505B61 /* libPods-BackdropTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		349A68525E445390EB842838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C61AD6F8D8BE539079F049F /* Pods-Backdrop.debug.xcconfig */,
+				3833DC8DFBA2D2A36E0A46D4 /* Pods-Backdrop.release.xcconfig */,
+				35D8F0E308DAF88E5F681002 /* Pods-BackdropTests.debug.xcconfig */,
+				A8C69E6CC570EE625B64EF75 /* Pods-BackdropTests.release.xcconfig */,
+				90D206B2810D37E2EC12DDED /* Pods-BackdropUITests.debug.xcconfig */,
+				691783F70780A74BA8599FD2 /* Pods-BackdropUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67026EB69F0385CAEEF74D2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE6E35D5CEFABCCB684D25BC /* libPods-Backdrop.a */,
+				E013098BAADDFE0C30A3079B /* libPods-BackdropTests.a */,
+				5FAFC4DE9CA0DDDCE43AEB0E /* libPods-BackdropUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1264E2B289C750300CC20D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1264E2F289C750400CC20D9 /* BackdropHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1539E512899C65A0042FFCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E7E2899CD090042FFCF /* About */,
+				B1539E6C2899CB5A0042FFCF /* Settings */,
+				B1539E5D2899C7A90042FFCF /* Preferences */,
+				B1539E522899C6620042FFCF /* Desktop */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1539E522899C6620042FFCF /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E532899C69E0042FFCF /* DesktopWindowController.h */,
+				B1539E542899C69E0042FFCF /* DesktopWindowController.m */,
+				B1539E552899C69E0042FFCF /* Desktop.xib */,
+				B1B784372899D68D00063C99 /* DesktopWindow.h */,
+				B1B784382899D68D00063C99 /* DesktopWindow.m */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		B1539E582899C71B0042FFCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E592899C7250042FFCF /* UnsplashPhoto */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1539E592899C7250042FFCF /* UnsplashPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E5A2899C7410042FFCF /* UnsplashPhoto.h */,
+				B1539E5B2899C7410042FFCF /* UnsplashPhoto.m */,
+			);
+			path = UnsplashPhoto;
+			sourceTree = "<group>";
+		};
+		B1539E5D2899C7A90042FFCF /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E5E2899C7D70042FFCF /* PreferencesWindowController.h */,
+				B1539E5F2899C7D70042FFCF /* PreferencesWindowController.m */,
+				B1539E612899C80D0042FFCF /* PreferencesWindow.h */,
+				B1539E622899C80D0042FFCF /* PreferencesWindow.m */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		B1539E6C2899CB5A0042FFCF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E6D2899CB7D0042FFCF /* SettingsViewController.h */,
+				B1539E6E2899CB7D0042FFCF /* SettingsViewController.m */,
+				B1539E6F2899CB7D0042FFCF /* Settings.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B1539E7E2899CD090042FFCF /* About */ = {
+			isa = PBXGroup;
+			children = (
+				B1539E7F2899CD2C0042FFCF /* AboutViewController.h */,
+				B1539E802899CD2C0042FFCF /* AboutViewController.m */,
+				B1539E812899CD2C0042FFCF /* About.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		B1BA8DE328A3048A0053ED19 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DF428A305D50053ED19 /* MessageBox */,
+				B1BA8DF028A305930053ED19 /* NSAlert+SynchronousSheet */,
+				B1BA8DEC28A305570053ED19 /* StartupLaunch */,
+				B1BA8DE828A305140053ED19 /* ApplicationsFolder */,
+				B1BA8DE428A304A90053ED19 /* NSWindowFade */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+		B1BA8DE428A304A90053ED19 /* NSWindowFade */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DE528A304BA0053ED19 /* NSWindowFade.h */,
+				B1BA8DE628A304BA0053ED19 /* NSWindowFade.m */,
+			);
+			path = NSWindowFade;
+			sourceTree = "<group>";
+		};
+		B1BA8DE828A305140053ED19 /* ApplicationsFolder */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DE928A305320053ED19 /* ApplicationsFolder.h */,
+				B1BA8DEA28A305320053ED19 /* ApplicationsFolder.m */,
+			);
+			path = ApplicationsFolder;
+			sourceTree = "<group>";
+		};
+		B1BA8DEC28A305570053ED19 /* StartupLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DED28A3056D0053ED19 /* StartupLaunch.h */,
+				B1BA8DEE28A3056D0053ED19 /* StartupLaunch.m */,
+			);
+			path = StartupLaunch;
+			sourceTree = "<group>";
+		};
+		B1BA8DF028A305930053ED19 /* NSAlert+SynchronousSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DF128A305AF0053ED19 /* NSAlert+SynchronousSheet.h */,
+				B1BA8DF228A305AF0053ED19 /* NSAlert+SynchronousSheet.m */,
+			);
+			path = "NSAlert+SynchronousSheet";
+			sourceTree = "<group>";
+		};
+		B1BA8DF428A305D50053ED19 /* MessageBox */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DF528A305E10053ED19 /* MessageBox.h */,
+				B1BA8DF628A305E10053ED19 /* MessageBox.m */,
+			);
+			path = MessageBox;
+			sourceTree = "<group>";
+		};
+		B1C8A0E92899BF630072885C = {
+			isa = PBXGroup;
+			children = (
+				B1264E2A289C750300CC20D9 /* BackdropHelper.xcodeproj */,
+				B1C8A0F42899BF630072885C /* Backdrop */,
+				B1C9EB2528A01F1B0078427F /* BackdropTests */,
+				B1C8A0F32899BF630072885C /* Products */,
+				349A68525E445390EB842838 /* Pods */,
+				67026EB69F0385CAEEF74D2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C8A0F32899BF630072885C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8A0F22899BF630072885C /* Backdrop.app */,
+				B1C9EB2428A01F1B0078427F /* BackdropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C8A0F42899BF630072885C /* Backdrop */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA8DE328A3048A0053ED19 /* Extra */,
+				B18AAFD6289AF50800A61EE4 /* Info.plist */,
+				B1539E582899C71B0042FFCF /* Models */,
+				B1539E512899C65A0042FFCF /* Views */,
+				B1C8A0F52899BF630072885C /* AppDelegate.h */,
+				B1C8A0F62899BF630072885C /* AppDelegate.m */,
+				B1C8A0F82899BF630072885C /* Assets.xcassets */,
+				B1C8A0FA2899BF630072885C /* MainMenu.xib */,
+				B1C8A0FD2899BF630072885C /* main.m */,
+				B1C8A0FF2899BF630072885C /* Backdrop.entitlements */,
+				B1539E692899C9690042FFCF /* Constants.h */,
+				B103893F28A5253300F524CF /* Secrets.h */,
+			);
+			path = Backdrop;
+			sourceTree = "<group>";
+		};
+		B1C9EB2528A01F1B0078427F /* BackdropTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1C9EB2628A01F1B0078427F /* BackdropTests.m */,
+			);
+			path = BackdropTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1C8A0F12899BF630072885C /* Backdrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C8A1182899BF640072885C /* Build configuration list for PBXNativeTarget "Backdrop" */;
+			buildPhases = (
+				AABC1F21D6BB63DAB263A3E6 /* [CP] Check Pods Manifest.lock */,
+				B1C8A0EE2899BF630072885C /* Sources */,
+				B1C8A0EF2899BF630072885C /* Frameworks */,
+				B1C8A0F02899BF630072885C /* Resources */,
+				93C535599075359C664070D4 /* [CP] Embed Pods Frameworks */,
+				D541148D4EB1AAA19F7E520B /* [CP] Copy Pods Resources */,
+				B15FB015289C72F500D7DBB0 /* CopyFiles */,
+				B15FB016289C731C00D7DBB0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Backdrop;
+			productName = Backdrop;
+			productReference = B1C8A0F22899BF630072885C /* Backdrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1C9EB2328A01F1B0078427F /* BackdropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C9EB2B28A01F1B0078427F /* Build configuration list for PBXNativeTarget "BackdropTests" */;
+			buildPhases = (
+				6BFF1321C1E6A96621CE1C6B /* [CP] Check Pods Manifest.lock */,
+				B1C9EB2028A01F1B0078427F /* Sources */,
+				B1C9EB2128A01F1B0078427F /* Frameworks */,
+				B1C9EB2228A01F1B0078427F /* Resources */,
+				2FBE1D2CBC9A520193BB9A38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B170316A28A0204500C36078 /* PBXTargetDependency */,
+			);
+			name = BackdropTests;
+			productName = BackdropTests;
+			productReference = B1C9EB2428A01F1B0078427F /* BackdropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C8A0EA2899BF630072885C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B1C8A0F12899BF630072885C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B1C9EB2328A01F1B0078427F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B1C8A0F12899BF630072885C;
+					};
+				};
+			};
+			buildConfigurationList = B1C8A0ED2899BF630072885C /* Build configuration list for PBXProject "Backdrop" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1C8A0E92899BF630072885C;
+			productRefGroup = B1C8A0F32899BF630072885C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1264E2B289C750300CC20D9 /* Products */;
+					ProjectRef = B1264E2A289C750300CC20D9 /* BackdropHelper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B1C8A0F12899BF630072885C /* Backdrop */,
+				B1C9EB2328A01F1B0078427F /* BackdropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B1264E2F289C750400CC20D9 /* BackdropHelper.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BackdropHelper.app;
+			remoteRef = B1264E2E289C750400CC20D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C8A0F02899BF630072885C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C8A0F92899BF630072885C /* Assets.xcassets in Resources */,
+				B1539E572899C69E0042FFCF /* Desktop.xib in Resources */,
+				B1C8A0FC2899BF630072885C /* MainMenu.xib in Resources */,
+				B1539E712899CB7D0042FFCF /* Settings.xib in Resources */,
+				B1539E832899CD2C0042FFCF /* About.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C9EB2228A01F1B0078427F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FBE1D2CBC9A520193BB9A38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackdropTests/Pods-BackdropTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BackdropTests/Pods-BackdropTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BackdropTests/Pods-BackdropTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFF1321C1E6A96621CE1C6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BackdropTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C535599075359C664070D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Backdrop/Pods-Backdrop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Backdrop/Pods-Backdrop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Backdrop/Pods-Backdrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABC1F21D6BB63DAB263A3E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Backdrop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15FB016289C731C00D7DBB0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n";
+		};
+		D541148D4EB1AAA19F7E520B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Backdrop/Pods-Backdrop-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Backdrop/Pods-Backdrop-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Backdrop/Pods-Backdrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1C8A0EE2899BF630072885C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BA8DEF28A3056D0053ED19 /* StartupLaunch.m in Sources */,
+				B1BA8DE728A304BA0053ED19 /* NSWindowFade.m in Sources */,
+				B1C8A0FE2899BF630072885C /* main.m in Sources */,
+				B1539E562899C69E0042FFCF /* DesktopWindowController.m in Sources */,
+				B1BA8DF328A305AF0053ED19 /* NSAlert+SynchronousSheet.m in Sources */,
+				B1B784392899D68D00063C99 /* DesktopWindow.m in Sources */,
+				B1539E822899CD2C0042FFCF /* AboutViewController.m in Sources */,
+				B1539E702899CB7D0042FFCF /* SettingsViewController.m in Sources */,
+				B1BA8DEB28A305320053ED19 /* ApplicationsFolder.m in Sources */,
+				B1BA8DF728A305E10053ED19 /* MessageBox.m in Sources */,
+				B1539E632899C80D0042FFCF /* PreferencesWindow.m in Sources */,
+				B1539E602899C7D70042FFCF /* PreferencesWindowController.m in Sources */,
+				B1539E5C2899C7410042FFCF /* UnsplashPhoto.m in Sources */,
+				B1C8A0F72899BF630072885C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C9EB2028A01F1B0078427F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B170316C28A0206100C36078 /* UnsplashPhoto.m in Sources */,
+				B1C9EB2728A01F1B0078427F /* BackdropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B170316A28A0204500C36078 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C8A0F12899BF630072885C /* Backdrop */;
+			targetProxy = B170316928A0204500C36078 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1C8A0FA2899BF630072885C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C8A0FB2899BF630072885C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1C8A1162899BF640072885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1C8A1172899BF640072885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1C8A1192899BF640072885C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C61AD6F8D8BE539079F049F /* Pods-Backdrop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Backdrop/Backdrop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Backdrop/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.arron.Backdrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		B1C8A11A2899BF640072885C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3833DC8DFBA2D2A36E0A46D4 /* Pods-Backdrop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Backdrop/Backdrop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 10;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Backdrop/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.arron.Backdrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		B1C9EB2828A01F1B0078427F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D8F0E308DAF88E5F681002 /* Pods-BackdropTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.arron.BackdropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backdrop.app/Contents/MacOS/Backdrop";
+			};
+			name = Debug;
+		};
+		B1C9EB2928A01F1B0078427F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C69E6CC570EE625B64EF75 /* Pods-BackdropTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.arron.BackdropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backdrop.app/Contents/MacOS/Backdrop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1C8A0ED2899BF630072885C /* Build configuration list for PBXProject "Backdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C8A1162899BF640072885C /* Debug */,
+				B1C8A1172899BF640072885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C8A1182899BF640072885C /* Build configuration list for PBXNativeTarget "Backdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C8A1192899BF640072885C /* Debug */,
+				B1C8A11A2899BF640072885C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C9EB2B28A01F1B0078427F /* Build configuration list for PBXNativeTarget "BackdropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C9EB2828A01F1B0078427F /* Debug */,
+				B1C9EB2928A01F1B0078427F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C8A0EA2899BF630072885C /* Project object */;
+}
