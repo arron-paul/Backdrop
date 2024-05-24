@@ -29,6 +29,7 @@
 #define ALERT_FORCE_CLOSE_TEXT @"To keep Backdrop running hidden in the background – re-open the app and close the window with ⌘+Q next time."
 #define ALERT_FORCE_CLOSE_TITLE @"Stopping Backdrop…"
 #define ALERT_FORCE_CLOSE_OPTION_CLOSE @"Stop"
+#define ALERT_FORCE_CLOSE_OPTION_BACKGROUND @"Run in Background"
 
 #define ALERT_AUTOLAUNCH_ERROR_TEXT @"macOS requires apps that launch on System Startup to be located in the Applications folder."
 #define ALERT_AUTOLAUNCH_ERROR_TITLE @"Backdrop needs to be in Applications folder"
