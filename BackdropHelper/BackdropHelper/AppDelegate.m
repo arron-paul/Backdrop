@@ -9,9 +9,17 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   
   // Launch Backdrop with 'BackgroundLaunch' argument
-  NSError *error = nil;
   NSURL *applicationUrl = [[NSWorkspace sharedWorkspace] URLForApplicationWithBundleIdentifier:@"Backdrop"];
-  [[NSWorkspace sharedWorkspace] launchApplicationAtURL:applicationUrl options:0 configuration:[NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@"BackgroundLaunch", nil] forKey:NSWorkspaceLaunchConfigurationArguments] error:&error];
+  
+  [[NSWorkspace sharedWorkspace] openApplicationAtURL:applicationUrl configuration:[NSWorkspaceOpenConfiguration configuration]
+      completionHandler:^(NSRunningApplication* app, NSError* error) {
+        if (error) {
+          NSLog(@"Failed to run the app: %@", error.localizedDescription);
+        }
+        exit(0);
+      }
+  ];
+  [NSThread sleepForTimeInterval: 10];
 
 }
 
