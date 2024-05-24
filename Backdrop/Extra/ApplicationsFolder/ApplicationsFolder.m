@@ -371,22 +371,36 @@ fail:
 
 + (BOOL)__trashBundle:(NSString *)path
 {
-    if ([[NSWorkspace sharedWorkspace] performFileOperation:NSWorkspaceRecycleOperation source:[path stringByDeletingLastPathComponent] destination:@"" files:[NSArray arrayWithObject:[path lastPathComponent]] tag:NULL])
-        return YES;
-    else {
-        NSLog(@"Error: Could not trash '%@'", path);
-        return NO;
-    }
+    __block BOOL success = NO;
+    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
+
+    NSArray *bundle = [NSArray arrayWithObject:[path lastPathComponent]];
+    [[NSWorkspace sharedWorkspace] recycleURLs:bundle completionHandler:^(NSDictionary<NSURL *,NSURL *> * _Nonnull newURLs, NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"Error: Could not trash '%@'", path);
+            success = NO;
+        } else {
+            success = YES;
+        }
+        dispatch_semaphore_signal(semaphore);
+    }];
+
+    // Wait for the completion handler to finish
+    dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER);
+
+    return success;
 }
 
 + (BOOL)__copyBundle:(NSString *)sourcePath destination:(NSString *)destinationPath
 {
+    // Get the default file manager instance
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSError *error = nil;
 
-    if ([fileManager copyItemAtPath:sourcePath toPath:destinationPath error:&error])
+    // Attempt to copy the item from sourcePath to destinationPath
+    if ([fileManager copyItemAtPath:sourcePath toPath:destinationPath error:&error]) {
         return YES;
-    else {
+    } else {
         NSLog(@"Error: Could not copy '%@' to '%@' (%@)", sourcePath, destinationPath, error);
         return NO;
     }
@@ -396,10 +410,12 @@ fail:
 {
     NSError *error;
 
-    if ([[NSFileManager defaultManager] removeItemAtPath:path error:&error])
+    // Attempt to delete the item at the specified path
+    if ([[NSFileManager defaultManager] removeItemAtPath:path error:&error]) {
         return YES;
-    else {
+    } else {
         NSLog(@"Warning: Could not delete '%@': %@", path, [error localizedDescription]);
+        // Attempt to move the item to the trash as a fallback
         return [self __trashBundle:path];
     }
 }
